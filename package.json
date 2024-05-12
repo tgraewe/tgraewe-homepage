@@ -2,7 +2,10 @@
   "name": "tommaso-homepage",
   "version": "1.0.0",
   "description": "Tommaso's website",
+  "homepage": "https://tgraewe.github.io/homepage",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier --write .",
@@ -26,6 +29,7 @@
   "devDependencies": {
     "eslint": "^9.2.0",
     "eslint-config-next": "^14.2.3",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5"
   }
 }
