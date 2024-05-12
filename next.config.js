@@ -1,3 +1,3 @@
-module.exports = withHydrationOverlay({
+module.exports = {
   reactStrictMode: true
-};
+}
