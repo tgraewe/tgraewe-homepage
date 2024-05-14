@@ -145,7 +145,7 @@ const Page = () => {
 
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        Say hello 👋
+        Say hello
         </Heading>
         <List>
         <ListItem>
