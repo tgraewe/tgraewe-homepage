@@ -68,23 +68,23 @@ const Page = () => {
         </Heading>
         <BioSection>
         <BioYear>2002</BioYear>
-        Born in Youngstown, Ohio
+        Born in Youngstown, Ohio.
         </BioSection>
         <BioSection>
         <BioYear>2009</BioYear>
-        Moved to and grew up in the Columbus metropolitan area
+        Moved to and grew up in the Columbus metropolitan area.
         </BioSection>
         <BioSection>
         <BioYear>2021</BioYear>
-        Enrolled as an undergraduate cybersecurity student at Purdue University after high school
+        Enrolled as an undergraduate cybersecurity student at Purdue University after high school.
         </BioSection>
         <BioSection>
         <BioYear>2023</BioYear>
-        Studied abroad in Scandinavia, including a trip to Berlin, Germany
+        Studied abroad for the summer in Scandinavia, including a trip to Berlin, Germany.
         </BioSection>
         <BioSection>
         <BioYear>2024 to present</BioYear>
-        Works as a freelance developer on the side
+        Works as a freelance developer on the side.
         </BioSection>
       </Section>
 
