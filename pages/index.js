@@ -98,6 +98,9 @@ const Page = () => {
           </Link> games, Films, Books, {' '}
           <Link href="https://javahouse.com/" target="_blank">
           Coffee
+          </Link>, {' '}
+          <Link href="https://500px.com/p/tgraewe?view=photos" target="_blank">
+            Photography
           </Link>
           </Paragraph>
       </Section>
