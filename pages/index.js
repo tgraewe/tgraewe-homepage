@@ -140,9 +140,7 @@ const Page = () => {
               </Button>
             </Link>
             </ListItem>
-            <ListItem>
-            <BuyMeACoffeeButton/>
-          </ListItem>
+            
         </List>
         </Section>
 
@@ -159,17 +157,6 @@ const Page = () => {
                 leftIcon={<AiOutlineMail/>}
                 >
                 tgraewe@proton.me
-              </Button>
-            </Link>
-            </ListItem>
-            <ListItem>
-            <Link href="https://discordapp.com/users/378336390188105739" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<IoLogoDiscord/>}
-                >
-                @tommaso
               </Button>
             </Link>
             </ListItem>
