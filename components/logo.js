@@ -23,12 +23,12 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const logoImg = `/images/logo-btap.png`
+  const logoImg = `/images/logo-fuji.png`
 
     return(
         <Link href="/">
             <LogoBox>
-                    <Image src={logoImg} width={20} height={20} alt='logo' />
+                    <Image src={logoImg} width={27} height={27} alt='logo' />
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                     fontFamily='M PLUS Rounded 1c'
