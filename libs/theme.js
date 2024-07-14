@@ -16,7 +16,7 @@ const components = {
         textDecoration: 'underline',
         fontSize: 20,
         textUnderlineOffset: 6,
-        textDecorationColor: '#525252',
+        textDecorationColor: 'white',
         textDecorationThickness: 4,
         marginTop: 3,
         marginBottom: 4
@@ -25,7 +25,7 @@ const components = {
   },
   Link: {
     baseStyle: props => ({
-      color: mode('#ff5e57', '#ff5e57')(props),
+      color: mode('blue', 'blue')(props),
       textUnderlineOffset: 3
     })
   }
