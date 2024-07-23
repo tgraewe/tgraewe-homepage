@@ -124,7 +124,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/tommaso-graewe/" target="_blank">
+            <Link href="https://www.linkedin.com/in/tgraewe/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
