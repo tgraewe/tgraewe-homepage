@@ -95,10 +95,10 @@ const Page = () => {
         <Paragraph> Playing Bass, {' '}
           <Link href="https://www.formula1.com/" target="_blank">
           F1
-          </Link>, Playing {' '}
+          </Link>, {' '}
           <Link href="https://www.fromsoftware.jp/ww/" target="_blank">
           FromSoftware
-          </Link>, Reading, {' '}
+          </Link> games, Reading, {' '}
           <Link href="https://javahouse.com/" target="_blank">
           Coffee
           </Link>, {' '} 
@@ -129,17 +129,17 @@ const Page = () => {
                 variant="ghost"
                 colorScheme="blue"
                 leftIcon={<IoLogoLinkedin/>}>
-                @tommaso graewe
+                @linkedin.com/in/tgraewe/
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/tommaso.graewe/" target="_blank">
+            <Link href="https://www.instagram.com/tommas.me/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
                 leftIcon={<IoLogoInstagram />}>
-                @tommaso.graewe
+                @tommas.me
               </Button>
             </Link>
             </ListItem>
