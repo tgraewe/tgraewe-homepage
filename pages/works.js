@@ -49,19 +49,19 @@ const Works = () => {
                 </Section>
             </SimpleGrid>
             <Divider my={6}/>
-
+{/* COMMENT 
             <Heading as="h3" fontSize={20} mb={4}>
                 Collaborations
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.4}>
-                <p>First collab is incoming. Keep an eye out ;)</p>
+                <p>RSA key-generator is incoming. Keep an eye out ;)</p>
                 </Section>
             </SimpleGrid>
             <Divider my={6}/>
-
+*/}
             <Heading as="h3" fontSize={20} mb={4}>
-                Old
+                Old Projects
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.4}>
