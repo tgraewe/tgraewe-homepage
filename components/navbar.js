@@ -76,12 +76,14 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
+          {/*
           <LinkItem href="/blog" path={path}>
             Blog
           </LinkItem>
           <LinkItem href="/toolkit" path={path}>
             Toolkit
           </LinkItem>
+          */}
           <LinkItem
             target="_blank"
             href="https://github.com/tgraewe/tgraewe-homepage"
@@ -112,12 +114,14 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
+                {/*
                 <MenuItem as={MenuLink} href="/blog">
                   Blog
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/toolkit">
                   Toolkit
                 </MenuItem>
+                */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/tgraewe/tgraewe-homepage">
