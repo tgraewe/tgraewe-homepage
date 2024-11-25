@@ -5,9 +5,8 @@ import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear} from '../components/bio';
 import Footer from '../components/footer';
-import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoDiscord, IoLink, IoLinkSharp } from 'react-icons/io5';
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLink, IoLinkSharp } from 'react-icons/io5';
 import { AiOutlineMail } from "react-icons/ai";
-import BuyMeACoffeeButton from '../components/buymeacoffee-button';
 import Layout from '../components/layouts/article';
 const Page = () => {
   
