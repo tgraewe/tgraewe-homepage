@@ -38,7 +38,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>React/ReactJS/GitHub/Namecheap/Google Cloud</span>
+                        <span>React / React JS / GitHub / Namecheap / Google Cloud</span>
                     </ListItem>
 
                     <WorkImage src="/images/projects/ehp_01.png" alt="ehp"></WorkImage>
