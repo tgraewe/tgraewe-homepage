@@ -27,8 +27,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://tgraewe.github.io/InspireQR-Website/">
-                        https://tgraewe.github.io/InspireQR-Website/
+                        <Link href="https://tgraewe.github.io/InspireQR/">
+                        https://tgraewe.github.io/InspireQR/
                         </Link>
                         
                     </ListItem>
@@ -38,7 +38,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>HTML/JS/CSS/GitHub Pages/Tooplate</span>
+                        <span>HTML/JS/CSS/GitHub</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Press Release</Meta>
