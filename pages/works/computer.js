@@ -19,7 +19,7 @@ const Work = () => {
                 Personal Computer <Badge>2019</Badge>
                 </Title>
                 <P>
-                A custom desktop assembled to support a home lab office/workstation, serving as the central hub. Meticulously designed for multitasking, virtualization, and high-performance computing. Carefully selected components offer tailored, unparalleled performance for a home lab's unique demands. Provides robust muscle for development, research, and innovation.                
+                A custom PC built to support a my endeavors at home when managing my home infrasructure or working remotely.              
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -28,7 +28,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Computer engineering/Home Infrastructure/Software development/Oracle VM VirtualBox/Hardware (repairs/maintenance)</span>
+                        <span>Computer Hardware / Software development</span>
                     </ListItem>
                     <WorkImage src="/images/projects/pc.png" alt="computer"></WorkImage>                   
                     <WorkImage src="/images/projects/pc_01.png" alt="specs"></WorkImage>      
