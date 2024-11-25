@@ -23,7 +23,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const logoImg = `/images/logo-fuji.png`
+  const logoImg = `/images/logo-btap.png`
 
     return(
         <Link href="/">
