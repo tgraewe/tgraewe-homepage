@@ -83,7 +83,7 @@ const Works = () => {
                 <Section delay={0.4}>
                     <WorkGridItem 
                     id="computer" 
-                    title="Custom Computer" 
+                    title="Custom PC" 
                     thumbnail={computer}>
                     A custom built PC.
                     </WorkGridItem>
