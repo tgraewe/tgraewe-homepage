@@ -16,7 +16,7 @@ const Work = () => {
         <Layout title="Game Server">
             <Container>
                 <Title>
-                    Game server <Badge>2024 - Present</Badge>
+                    Game server <Badge>Ongoing</Badge>
                 </Title>
                 <P>
                 A Minecraft server hosted on my home VM cluster. 

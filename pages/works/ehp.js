@@ -16,7 +16,7 @@ const Work = () => {
         <Layout title="Ethical Hackers of Purdue">
             <Container>
                 <Title>
-                    Ethical Hackers of Purdue Website <Badge>2024</Badge>
+                    Ethical Hackers of Purdue Website <Badge>Ongoing</Badge>
                 </Title>
                 <P>
                 As a proud member of Ethical Hackers of Purdue, 
