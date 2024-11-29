@@ -20,7 +20,7 @@ const Works = () => {
                     id="inspireqr" 
                     title="Inspire-QR" 
                     thumbnail={inspireqr}>
-                    An award-winning website project for mental health awareness on college campuses.
+                    An award winning website project.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
@@ -36,7 +36,7 @@ const Works = () => {
                     id="secondbrain" 
                     title="Second Brain" 
                     thumbnail={secondbrain}>
-                    A second brain note-taking repository.
+                    A note-taking repository.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
@@ -69,7 +69,7 @@ const Works = () => {
                     id="oldsite" 
                     title="Original Porfolio" 
                     thumbnail={oldsite}>
-                    An original website made with no frameworks.
+                    My first portfolio.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
@@ -77,7 +77,7 @@ const Works = () => {
                     id="minecraft" 
                     title="Game Server" 
                     thumbnail={minecraft}>
-                    A vanilla, tweaked Minecraft game server.
+                    A minecraft game server.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
@@ -85,7 +85,7 @@ const Works = () => {
                     id="computer" 
                     title="Custom Computer" 
                     thumbnail={computer}>
-                    A custom built gaming PC and workstation for a home lab.
+                    A custom built PC.
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
