@@ -1,15 +1,18 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import inspireqr from '../public/images/projects/inspire.png'
-import ehp from '../public/images/projects/ehp.png'
+import inspireqr from '../public/images/projects/inspireqr/logo.png'
+import datacenter from '../public/images/projects/datacenter/dc_03.jpg'
+import ehp from '../public/images/projects/ehp_01.png'
 import secondbrain from '../public/images/projects/secondbrain.png'
-import raspi from '../public/images/projects/raspi.png'
+import raspi from '../public/images/projects/raspi_01.png'
 import oldsite from '../public/images/projects/oldsite.png'
-import minecraft from '../public/images/projects/minecraft.png'
-import computer from '../public/images/projects/pc.png'
+import minecraft from '../public/images/projects/minecraft_01.png'
+import computer from '../public/images/projects/pc_01.png'
+import Layout from '../components/layouts/article'
 const Works = () => {
     return (
+    <Layout title="Works">
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
                 Works
@@ -17,34 +20,26 @@ const Works = () => {
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.4}>
                     <WorkGridItem 
-                    id="inspireqr" 
-                    title="Inspire-QR" 
-                    thumbnail={inspireqr}>
-                    An award winning website project.
+                    id="datacenter" 
+                    title="Datacenter" 
+                    thumbnail={datacenter}>
+                    Cyber Infrastructure Lab.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
                     <WorkGridItem 
                     id="ehp" 
-                    title="Ethical Hacking website" 
+                    title="Hacking website" 
                     thumbnail={ehp}>
                     Ethical Hackers of Purdue website.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
                     <WorkGridItem 
-                    id="secondbrain" 
-                    title="Second Brain" 
-                    thumbnail={secondbrain}>
-                    A note-taking repository.
-                    </WorkGridItem>
-                </Section>
-                <Section delay={0.4}>
-                    <WorkGridItem 
-                    id="raspi" 
-                    title="Home DNS" 
-                    thumbnail={raspi}>
-                    Raspi home DNS/VPN server.
+                    id="minecraft" 
+                    title="Game Server" 
+                    thumbnail={minecraft}>
+                    A minecraft game server.
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
@@ -61,7 +56,7 @@ const Works = () => {
             <Divider my={6}/>
 */}
             <Heading as="h3" fontSize={20} mb={4}>
-                Old Projects
+                Old works
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.4}>
@@ -74,10 +69,26 @@ const Works = () => {
                 </Section>
                 <Section delay={0.4}>
                     <WorkGridItem 
-                    id="minecraft" 
-                    title="Game Server" 
-                    thumbnail={minecraft}>
-                    A minecraft game server.
+                    id="secondbrain" 
+                    title="Second Brain" 
+                    thumbnail={secondbrain}>
+                    A note taking repository.
+                    </WorkGridItem>
+                </Section>
+                <Section delay={0.4}>
+                    <WorkGridItem 
+                    id="raspi" 
+                    title="Home DNS" 
+                    thumbnail={raspi}>
+                    Raspi home DNS/VPN server.
+                    </WorkGridItem>
+                </Section>
+                <Section delay={0.4}>
+                    <WorkGridItem 
+                    id="inspireqr" 
+                    title="Inspire-QR" 
+                    thumbnail={inspireqr}>
+                    An award winning project.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
@@ -89,8 +100,8 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
-            
         </Container>
+    </Layout>
     )
 }
 
