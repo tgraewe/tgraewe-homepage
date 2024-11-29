@@ -48,7 +48,14 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         Work
       </Heading>
-        <Paragraph>I'm an invigorated developer and rising professional from Columbus, Ohio. Currently, I'm also pursuing two degrees in Cybersecurity and Network Engineering at Purdue University with a minor in Sociology. I enjoy new experiences in my job environments and leaving an impact on the people I connect with as well as learning from them, their experiences, and their personal lives. I'm always looking to pick up new skills for positions to adapt swiftly and am satisfied only by refined quality work. In my free time, you'll find me reading a book of interest and enjoying a coffee. My determination comes from my feelings when I complete a goal which was challenging when I started, yet more rewarding in experience when completed. I'm fully confident and capable of delivering innovative solutions tailored to each client's unique needs.</Paragraph>
+        <Paragraph>I'm a developer and student from Columbus, Ohio. 
+          Currently, I'm pursuing two degrees in Network Engineering and Cybersecurity at Purdue University. 
+          I enjoy new experiences and leaving an impact on the people I connect with as well as learning from them, thier experiences, and personal lives. 
+          I'm always looking to pick up new skills for positions to adapt swiftly. 
+          In my free time, you'll find me reading a book and enjoying a espresso. 
+          My determination comes from satisfaction when a project is completed with quality work and the job is done. 
+          I'm fully confident and capable of delivering innovative solutions when the time comes.
+          </Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -78,12 +85,16 @@ const Page = () => {
         Enrolled as a Cybersecurity student at Purdue University.
         </BioSection>
         <BioSection>
-        <BioYear>2023</BioYear>
-        Studied abroad for the summer in Copenhagen, Stockholm, and a tour to Berlin.
+        <BioYear>2022</BioYear>
+        Added a second major in Network Engineering Technology.
         </BioSection>
         <BioSection>
-        <BioYear>2024 to present</BioYear>
-        Works as a freelance developer on the side.
+        <BioYear>2023</BioYear>
+        Studied abroad for the summer in Copenhagen, Stockholm, and Berlin.
+        </BioSection>
+        <BioSection>
+        <BioYear>2024</BioYear>
+        Contriubted to rebuilding the Purdue Cyber Infrastructure Lab
         </BioSection>
       </Section>
 
