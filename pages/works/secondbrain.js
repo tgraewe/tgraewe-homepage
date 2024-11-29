@@ -19,10 +19,9 @@ const Work = () => {
                     Second Brain <Badge>2023</Badge>
                 </Title>
                 <P>
-                A personal database was constructed using Obsidian and GitHub. 
-                Used to store class notes and connect the concepts for review during exam season. 
-                The goal of this project was to centralize all of my notes on one platform to be accessed from my personal computers. 
-                The GitHub repository automatically synchronizes across my devices every 5 minutes to maintain backups and accessibility.
+                A github repo integrated with Obsidian. 
+                Used as a free solution to store markdown files online for compatibility.
+                Auto syncs across devices every 5 minutes. Graphical view visualizes conected concepts when studying.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -34,11 +33,11 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Obsidian/Windows</span>
+                        <span>Obsidian / Windows</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Obsidian/Git/Community pluggins</span>
+                        <span>Obsidian / Github </span>
                     </ListItem>
 
                     <WorkImage src="/images/projects/secondbrain.png" alt="graph"></WorkImage>                   

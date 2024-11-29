@@ -30,7 +30,6 @@ const Work = () => {
                         <Link href="https://tgraewe.github.io/InspireQR/">
                         https://tgraewe.github.io/InspireQR/
                         </Link>
-                        
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
@@ -38,7 +37,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>HTML/JS/CSS/GitHub</span>
+                        <span>HTML / JS / CSS / GitHub</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Press Release</Meta>

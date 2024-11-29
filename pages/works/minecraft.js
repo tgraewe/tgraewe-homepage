@@ -16,13 +16,17 @@ const Work = () => {
         <Layout title="Game Server">
             <Container>
                 <Title>
-                    t0matoes.playit.gg <Badge>2022 - 2023</Badge>
+                    Game server <Badge>2024 - Present</Badge>
                 </Title>
                 <P>
                 A Minecraft server hosted on my home VM cluster. 
                 Uses secure VPN tunnel for clients and global anycast network to avoid portscans.
                 </P>
                 <List ml={4} my={4}>
+                    <ListItem>
+                        <Meta>Website</Meta>
+                        <Link href="t0matoes.playit.gg">t0matoes.playit.gg</Link>
+                    </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
                         <span>Minecraft Java Edition</span>

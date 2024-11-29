@@ -16,25 +16,20 @@ const Work = () => {
         <Layout title="Original Porfolio">
             <Container>
                 <Title>
-                    Original Porfolio <Badge>2022 - 2024</Badge>
+                    Original Porfolio <Badge>2023</Badge>
                 </Title>
                 <P>
-                First portfolio website, second web application project completed, engaged to learn more about frontend engineering. Was able to implement some basic yet cool projects within the original website including my original portfolio. Had weaknesses such as utilizing a single page rather than multiple, or being incompatible with mobile. Pushed me to learn the React framework to develop more powerful dynamic websites.                </P>
+                First portfolio website made. Offered basic web development features. Displayed my old resume and contact card. Pushed me to learn the React framework after to build more powerful websites.
+                </P>
                 <List ml={4} my={4}>
-                    <ListItem>
-                        <Meta>Website</Meta>
-                        <Link href="https://tommaso-graewe.dev">
-                        https://tommaso-graewe.dev
-                        </Link>
-                        
-                    </ListItem>
+                   
                     <ListItem>
                         <Meta>Platform</Meta>
                         <span>All browsers</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>HTML/JS/CSS/GitHub/GitHub Pages/Cloudflare</span>
+                        <span>HTML / JS / CSS / GitHub / GitHub Pages / Cloudflare</span>
                     </ListItem>
 
                     <WorkImage src="/images/projects/oldsite.png" alt="about"></WorkImage>                   
