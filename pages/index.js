@@ -27,7 +27,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Tommaso Graewe
           </Heading>
-          <p>Boilermaker / Blue Teamer / Freelance Developer</p>
+          <p>Boilermaker / Blue Teamer / Developer</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -89,21 +89,22 @@ const Page = () => {
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          I♥︎
+          I ♥︎
         </Heading>
         <Paragraph> Playing Bass, {' '}
           <Link href="https://www.formula1.com/" target="_blank">
           F1
           </Link>, {' '}
           <Link href="https://www.fromsoftware.jp/ww/" target="_blank">
-          FromSoftware
-          </Link> games, Reading, {' '}
+          FromSoftware games
+          </Link>, Reading, {' '}
           <Link href="https://javahouse.com/" target="_blank">
           Coffee
           </Link>, {' '} 
           <Link href="https://500px.com/p/tgraewe?view=photos" target="_blank">
             Photography
           </Link>
+          , Network Engineering
           </Paragraph>
       </Section>
 
