@@ -16,15 +16,15 @@ const Work = () => {
         <Layout title="Personal Computer">
             <Container>
                 <Title>
-                Personal Computer <Badge>2019</Badge>
+                Custom PC <Badge>2019</Badge>
                 </Title>
                 <P>
-                A custom PC built to support a my endeavors at home when managing my home infrasructure or working remotely.              
+                A custom PC built to support a my projects for managing my homelab or working remotely.              
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Windows 10/</span>
+                        <span>Windows 10</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
@@ -32,7 +32,6 @@ const Work = () => {
                     </ListItem>
                     <WorkImage src="/images/projects/pc.png" alt="computer"></WorkImage>                   
                     <WorkImage src="/images/projects/pc_01.png" alt="specs"></WorkImage>      
-                    <WorkImage src="/images/projects/pc_02.png" alt="specs"></WorkImage>                   
 
                 </List>
             </Container>
