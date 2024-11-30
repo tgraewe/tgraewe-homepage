@@ -27,18 +27,11 @@ const Work = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Website</Meta>
-                        <Link href="https://pi-hole.net/">
-                        https://pi-hole.net/
-                        </Link>
-                        
-                    </ListItem>
-                    <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Raspberry Pi 4</span>
+                        <span>Raspberry Pi 3 Model B</span>
                     </ListItem>
                     <ListItem>
-                        <Meta>Stack</Meta>
+                        <Meta>Software</Meta>
                         <span>Raspberry Pi OS Lite / Pi-hole / PiVPN</span>
                     </ListItem>
                     <WorkImage src="/images/projects/raspi_01.png" alt="raspi"></WorkImage>                   

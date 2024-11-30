@@ -25,7 +25,7 @@ const Work = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Obsidian</Meta>
+                        <Meta>Applcation</Meta>
                         <Link href="https://obsidian.md/">
                         https://obsidian.md/
                         </Link>
@@ -33,11 +33,11 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Obsidian / Windows</span>
+                        <span>Obsidian</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Obsidian / Github </span>
+                        <span>Obsidian Plugins / GitHub </span>
                     </ListItem>
 
                     <WorkImage src="/images/projects/secondbrain.png" alt="graph"></WorkImage>                   

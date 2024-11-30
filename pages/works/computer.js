@@ -23,12 +23,12 @@ const Work = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Platform</Meta>
+                        <Meta>OS</Meta>
                         <span>Windows 10</span>
                     </ListItem>
                     <ListItem>
-                        <Meta>Stack</Meta>
-                        <span>Computer Hardware / Software development</span>
+                        <Meta>Hardware</Meta>
+                        <span>AMD Ryzen 5 2600X / AMD Radeon RX 590 / MSI B350 Tomahawk / Vengeance DDR4 24GB / Segotep 750W</span>
                     </ListItem>
                     <WorkImage src="/images/projects/pc.png" alt="computer"></WorkImage>                   
                     <WorkImage src="/images/projects/pc_01.png" alt="specs"></WorkImage>      

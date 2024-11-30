@@ -33,7 +33,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Java Development Kit (JDK) / Ubuntu Server / Cloudflare DNS</span>
+                        <span>Java Development Kit / Ubuntu Server / PaperMC / Playit.gg</span>
                     </ListItem>
                     <WorkImage src="/images/projects/minecraft.png" alt="about"></WorkImage>                   
                     <WorkImage src="/images/projects/minecraft_01.png" alt="resume"></WorkImage>                   

@@ -25,15 +25,15 @@ const Work = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Platform</Meta>
+                        <Meta>Experience</Meta>
                         <span>Network Engineering</span>
                     </ListItem>
                     <ListItem>
-                        <Meta>Stack</Meta>
+                        <Meta>Equipment</Meta>
                         <span>Datacenter Infrastructure / Cisco Products / Keystone Jacks / Punchdown Tools</span>
                     </ListItem>
                     <ListItem>
-                        <Meta>Press Release</Meta>
+                        <Meta>Post</Meta>
                         <Link href='https://www.instagram.com/p/DCzD9Brx1KZ/'>This summer, our students were at the heart of major renovations in our Cyber Infrastructure lab.</Link>
                     </ListItem>
 
