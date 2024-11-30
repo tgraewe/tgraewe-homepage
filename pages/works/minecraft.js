@@ -24,7 +24,7 @@ const Work = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Website</Meta>
+                        <Meta>Domain</Meta>
                         <Link href="t0matoes.playit.gg">t0matoes.playit.gg</Link>
                     </ListItem>
                     <ListItem>
