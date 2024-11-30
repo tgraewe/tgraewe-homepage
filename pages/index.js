@@ -20,7 +20,7 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m a student at Purdue University!
+        Hello, I&apos;m a Cybersecurity student at Purdue University!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
