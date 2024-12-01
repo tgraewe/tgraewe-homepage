@@ -94,7 +94,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2024</BioYear>
-        Contriubted to rebuilding the Purdue Cyber Infrastructure Lab
+        Contributed to rebuilding the Purdue Cyber Infrastructure Lab
         </BioSection>
       </Section>
 
