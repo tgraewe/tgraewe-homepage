@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import inspireqr from '../public/images/projects/inspireqr/logo.png'
 import datacenter from '../public/images/projects/datacenter/dc_03.jpg'
+import homelab from '../public/images/projects/homelab/diagram.png'
 import ehp from '../public/images/projects/ehp_01.png'
 import secondbrain from '../public/images/projects/secondbrain.png'
 import raspi from '../public/images/projects/raspi_01.png'
@@ -18,6 +19,14 @@ const Works = () => {
                 Works
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
+                <Section delay={0.4}>
+                    <WorkGridItem 
+                    id="homelab" 
+                    title="Homelab" 
+                    thumbnail={homelab}>
+                    Home Infrastructure Lab.
+                    </WorkGridItem>
+                </Section>
                 <Section delay={0.4}>
                     <WorkGridItem 
                     id="datacenter" 
