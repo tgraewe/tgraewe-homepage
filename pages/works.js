@@ -10,6 +10,7 @@ import raspi from '../public/images/projects/raspi_01.png'
 import oldsite from '../public/images/projects/oldsite.png'
 import minecraft from '../public/images/projects/minecraft_01.png'
 import computer from '../public/images/projects/pc_01.png'
+import pideck from '../public/images/projects/pideck/pideck_01.png'
 import Layout from '../components/layouts/article'
 const Works = () => {
     return (
@@ -19,6 +20,14 @@ const Works = () => {
                 Works
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.4}>
+                    <WorkGridItem 
+                    id="pideck" 
+                    title="Cyber Deck" 
+                    thumbnail={pideck}>
+                    A small portable computer for future works.
+                    </WorkGridItem>
+                </Section>
                 <Section delay={0.4}>
                     <WorkGridItem 
                     id="homelab" 
