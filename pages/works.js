@@ -23,7 +23,7 @@ const Works = () => {
             <Section delay={0.4}>
                     <WorkGridItem 
                     id="pideck" 
-                    title="Cyber Deck" 
+                    title="Cyberdeck" 
                     thumbnail={pideck}>
                     A small portable computer for future projects.
                     </WorkGridItem>
