@@ -16,7 +16,7 @@ const Work = () => {
         <Layout title="Cyber Deck">
             <Container>
                 <Title>
-                Cyber Deck <Badge>2024</Badge>
+                Cyberdeck <Badge>2024</Badge>
                 </Title>
                 <P>
                 Basically a small portable computer.
