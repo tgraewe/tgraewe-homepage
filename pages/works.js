@@ -25,7 +25,7 @@ const Works = () => {
                     id="pideck" 
                     title="Cyber Deck" 
                     thumbnail={pideck}>
-                    A small portable computer for future works.
+                    A small portable computer for future projects.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
