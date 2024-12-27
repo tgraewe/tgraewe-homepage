@@ -13,7 +13,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="Cyber Deck">
+        <Layout title="Cyberdeck">
             <Container>
                 <Title>
                 Cyberdeck <Badge>2024</Badge>
