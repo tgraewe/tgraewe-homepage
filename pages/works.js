@@ -99,7 +99,7 @@ const Works = () => {
               title="Home DNS" 
               thumbnail={raspi}
             >
-              Raspi home DNS/VPN server.
+              Raspberry Pi DNS/VPN server.
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
@@ -108,7 +108,7 @@ const Works = () => {
               title="Custom PC" 
               thumbnail={computer}
             >
-              A custom built PC.
+              A custom built computer.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
