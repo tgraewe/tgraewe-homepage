@@ -11,6 +11,7 @@ import oldsite from '../public/images/projects/oldsite_01.png'
 import minecraft from '../public/images/projects/minecraft_01.png'
 import computer from '../public/images/projects/pc_01.png'
 import pideck from '../public/images/projects/pideck/pideck_01.png'
+import ports from '../public/images/projects/ports/2.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -21,6 +22,15 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.4}>
+            <WorkGridItem 
+              id="ports" 
+              title="Ports" 
+              thumbnail={ports}
+            >
+              Recently sold website, for portfolios (ports).
+            </WorkGridItem>
+          </Section>
           <Section delay={0.4}>
             <WorkGridItem 
               id="pideck" 
