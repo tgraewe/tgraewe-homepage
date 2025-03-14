@@ -21,16 +21,9 @@ const Work = () => {
                 <P>
                 Ports is a novel investment platform that simplifies portfolio management for all. It allows individuals to view unique portfolios created for various investment approaches, thereby enabling them to diversify their investments with minimal effort. The platform aims to be easily accessible, enabling individuals to invest with as low as $5, and provides features to monitor returns and risks across portfolios.
 
-                You improved the user experience at the frontend in Ports. First, you made the landing page more attractive and easier to navigate, which acquires more new users. Second, you made the marketplace, in which people browse and select portfolios, cleaner and easier. Lastly, you made the leaderboard, which tracks the best portfolios, more engaging and helpful for the users.                
                 </P>
                 <List ml={4} my={4}>
-                    <ListItem>
-                        <Meta>Website</Meta>
-                        <Link href="https://invest-ports.com">
-                        https://invest-ports.com
-                        </Link>
-                        
-                    </ListItem>
+                   
                     <ListItem>
                         <Meta>Platform</Meta>
                         <span>All browsers</span>
