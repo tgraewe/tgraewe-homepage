@@ -42,7 +42,6 @@ const Work = () => {
 
 
                     <WorkImage src="/images/projects/ports/2.png" alt="about"></WorkImage> 
-                    <WorkImage src="/images/projects/ports/4.png" alt="about"></WorkImage>  
                     <WorkImage src="/images/projects/ports/3.png" alt="about"></WorkImage>  
                     <WorkImage src="/images/projects/ports/1.png" alt="about"></WorkImage>  
                 </List>
