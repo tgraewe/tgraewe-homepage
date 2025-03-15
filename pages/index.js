@@ -102,7 +102,7 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           I ♥︎
         </Heading>
-        <Paragraph> Playing Bass, {' '}
+        <Paragraph> Lifting, {' '}
           <Link href="https://www.formula1.com/" target="_blank">
           F1
           </Link>, {' '}
