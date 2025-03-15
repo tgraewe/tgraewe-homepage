@@ -129,16 +129,6 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/tgraewe/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<IoLogoLinkedin/>}>
-                @linkedin.com/in/tgraewe/
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link href="https://www.instagram.com/tom.graewe/" target="_blank">
               <Button
                 variant="ghost"
@@ -148,6 +138,16 @@ const Page = () => {
               </Button>
             </Link>
             </ListItem>
+            <ListItem>
+            <Link href="https://www.linkedin.com/in/tgraewe/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="blue"
+                leftIcon={<IoLogoLinkedin/>}>
+                linkedin.com/in/tgraewe/
+              </Button>
+            </Link>
+          </ListItem>
             {/*<ListItem>
             <Link href="https://linktr.ee/tgraewe" target="_blank">
               <Button
