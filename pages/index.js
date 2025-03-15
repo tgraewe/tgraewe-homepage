@@ -115,7 +115,6 @@ const Page = () => {
           <Link href="https://500px.com/p/tgraewe?view=photos" target="_blank">
             Photography
           </Link>
-          , Network Engineering
           </Paragraph>
       </Section>
 
