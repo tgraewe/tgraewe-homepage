@@ -26,7 +26,7 @@ const Work = () => {
                    
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>All browsers</span>
+                        <span>Desktop browsers</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
