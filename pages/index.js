@@ -27,7 +27,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Tommaso Graewe
           </Heading>
-          <p>Boilermaker / Blue Teamer / Developer</p>
+          <p>Boilermaker / Network Engineer / Developer</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -48,14 +48,9 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I'm a developer and student from Columbus, Ohio. 
-          Currently, I'm pursuing two degrees in Network Engineering and Cybersecurity at Purdue University. 
-          I enjoy new experiences and leaving an impact on the people I connect with as well as learning from them, thier experiences, and personal lives. 
-          I'm always looking to pick up new skills for positions to adapt swiftly. 
-          In my free time, you'll find me reading a book and enjoying a espresso. 
-          My determination comes from satisfaction when a project is completed with quality work and the job is done. 
-          I'm fully confident and capable of delivering innovative solutions when the time comes.
-          </Paragraph>
+        <Paragraph>I'm a developer and student from Columbus, Ohio. Currently, I’m pursuing a Network Engineering track at Purdue University. I enjoy new experiences and leaving an impact on the people I work with as well as learning from their experiences and lives. In my free time, you'll find me reading and enjoying an espresso. My determination comes from satisfaction when a project is completed and the outcome goes beyond expectations. 
+        I have a relentless focus on continuous improvement—whether it’s identifying overlooked details, refining processes, or learning from mistakes. Whenever I finish a project, I immediately look for ways to make it better, faster, and stronger.
+        </Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -74,27 +69,27 @@ const Page = () => {
         </Heading>
         <BioSection>
         <BioYear>2002</BioYear>
-        Born in Youngstown, Ohio.
+        Born in Youngstown, Ohio
         </BioSection>
         <BioSection>
         <BioYear>2009</BioYear>
-        Grew up in the Columbus metropolitan area.
+        Grew up in the Columbus metropolitan area, Ohio
         </BioSection>
         <BioSection>
         <BioYear>2021</BioYear>
-        Enrolled as a Cybersecurity student at Purdue University.
-        </BioSection>
-        <BioSection>
-        <BioYear>2022</BioYear>
-        Added a second major in Network Engineering Technology.
+        Enrolled as a Cybersecurity student at Purdue University
         </BioSection>
         <BioSection>
         <BioYear>2023</BioYear>
-        Studied abroad for the summer in Copenhagen, Stockholm, and Berlin.
+        Studied abroad for the summer in Copenhagen, Stockholm, and Berlin
         </BioSection>
         <BioSection>
         <BioYear>2024</BioYear>
-        Contributed to rebuilding the Purdue Cyber Infrastructure Lab
+        Contributed to rebuilding the Purdue Cyber Infrastructure and Wireless Security Laboratories
+        </BioSection>
+        <BioSection>
+        <BioYear>2025</BioYear>
+        Completed a dual-major in Cybersecurity and Network Engineering Technology in the School of Computer and Information Technology at Purdue University
         </BioSection>
       </Section>
 
@@ -144,16 +139,16 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/tommas.me/" target="_blank">
+            <Link href="https://www.instagram.com/tom.graewe/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
-                leftIcon={<IoLogoInstagram />}>
-                @tommas.me
+                leftIcon={<IoLogoInstagram/>}>
+                @tom.graewe
               </Button>
             </Link>
             </ListItem>
-            <ListItem>
+            {/*<ListItem>
             <Link href="https://linktr.ee/tgraewe" target="_blank">
               <Button
                 variant="ghost"
@@ -162,7 +157,7 @@ const Page = () => {
                 @linktr.ee/tgraewe
               </Button>
             </Link>
-          </ListItem>
+          </ListItem>*/}
             
         </List>
         </Section>
