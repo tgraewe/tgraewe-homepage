@@ -46,7 +46,7 @@ const Page = () => {
       </Box>
       <Section delay={0.1}>
       <Heading as="h3" variant="section-title">
-        Work
+        About me
       </Heading>
         <Paragraph>I'm a developer and student from Columbus, Ohio. 
           Currently, I'm pursuing two degrees in Network Engineering and Cybersecurity at Purdue University. 
