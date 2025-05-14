@@ -20,14 +20,14 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m a Network Engineering student at Purdue University!
+        Hello, I&apos;m a Master's student at Purdue University, focusing on Cyberinfrastructure and Networking.
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Tommaso Graewe
           </Heading>
-          <p>Boilermaker / Blue Teamer / Developer</p>
+          <p>Network Engineer / Boilermaker / Fixer</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -48,8 +48,12 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I'm a developer and student from Columbus, Ohio. Currently, I’m pursuing a Network Engineering track at Purdue University. I enjoy new experiences and leaving an impact on the people I work with as well as learning from their experiences and lives. In my free time, you'll find me reading and enjoying an espresso. My determination comes from satisfaction when a project is completed and the outcome goes beyond expectations. 
-        I have a relentless focus on continuous improvement—whether it’s identifying overlooked details, refining processes, or learning from mistakes. Whenever I finish a project, I immediately look for ways to make it better, faster, and stronger.
+        <Paragraph>I'm a developer and student from Columbus, Ohio. Currently, I’m pursuing a Network Engineering track at Purdue University. 
+          I enjoy new experiences and leaving an impact on the people I work with as well as learning from their experiences and lives. 
+          In my free time, you'll find me reading and enjoying an espresso. 
+          My determination comes from satisfaction when a project is completed and the outcome goes beyond expectations. 
+          I have a relentless focus on continuous improvement-whether it’s identifying overlooked details, refining processes, or learning from mistakes. 
+          Whenever I finish a project, I immediately look for ways to make it more efficent.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -73,7 +77,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2009</BioYear>
-        Grew up in the Columbus metropolitan area, Ohio
+        Moved to the Columbus Metropolitan Area, Ohio
         </BioSection>
         <BioSection>
         <BioYear>2021</BioYear>
@@ -81,15 +85,15 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2023</BioYear>
-        Studied abroad for the summer in Copenhagen, Stockholm, and Berlin
+        Studied Abroad: Copenhagen, Stockholm & Berlin        
         </BioSection>
         <BioSection>
         <BioYear>2024</BioYear>
-        Contributed to rebuilding the Purdue Cyber Infrastructure and Wireless Security Laboratories
+        Rebuilt Purdue’s Cyber Infrastructure Datacenter & Wireless Security Labs
         </BioSection>
         <BioSection>
         <BioYear>2025</BioYear>
-        Completed a dual-major in Cybersecurity and Network Engineering Technology in the School of Computer and Information Technology at Purdue University
+        Graduated from Purdue University
         </BioSection>
       </Section>
 
@@ -104,12 +108,13 @@ const Page = () => {
           <Link href="https://www.fromsoftware.jp/ww/" target="_blank">
           FromSoftware games
           </Link>, Reading, {' '}
-          <Link href="https://javahouse.com/" target="_blank">
+          <Link href="https://bostonstoker.com/" target="_blank">
           Coffee
           </Link>, {' '} 
           <Link href="https://500px.com/p/tgraewe?view=photos" target="_blank">
             Photography
-          </Link>
+          </Link>, {' '} 
+          Homelab tinkering, Retrowave
           </Paragraph>
       </Section>
 
@@ -124,7 +129,7 @@ const Page = () => {
                 variant="ghost"
                 colorScheme="blue"
                 leftIcon={<IoLogoGithub />}>
-                @tgraewe
+                tgraewe
               </Button>
             </Link>
           </ListItem>
@@ -134,7 +139,7 @@ const Page = () => {
                 variant="ghost"
                 colorScheme="blue"
                 leftIcon={<IoLogoInstagram/>}>
-                @tom.graewe
+                tom.graewe
               </Button>
             </Link>
             </ListItem>
