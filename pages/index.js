@@ -20,14 +20,14 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m a Master's student at Purdue University, focusing on Cyberinfrastructure and Networking.
+        Hello, I&apos;m a Master's Student in Cyberinfrastructure and Networking at Purdue University 
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Tommaso Graewe
+            Tom Gräwe
           </Heading>
-          <p>Network Engineer / Boilermaker / Fixer</p>
+          <p>Network Engineer / Boilermaker / Fixer / Instructor</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -48,12 +48,12 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I'm a developer and student from Columbus, Ohio. Currently, I’m pursuing a Network Engineering track at Purdue University. 
+        <Paragraph>I'm a gradstudent and developer from Columbus, OH. Currently, I’m pursuing a Network Engineering track at Purdue University. 
           I enjoy new experiences and leaving an impact on the people I work with as well as learning from their experiences and lives. 
           In my free time, you'll find me reading and enjoying an espresso. 
           My determination comes from satisfaction when a project is completed and the outcome goes beyond expectations. 
-          I have a relentless focus on continuous improvement-whether it’s identifying overlooked details, refining processes, or learning from mistakes. 
-          Whenever I finish a project, I immediately look for ways to make it more efficent.
+          I have a relentless focus on continuous improvement, whether it’s identifying overlooked details, refining processes, or learning from mistakes. 
+          Whenever I finish a project, I immediately look for ways to make it more efficent and optimize it.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -73,11 +73,11 @@ const Page = () => {
         </Heading>
         <BioSection>
         <BioYear>2002</BioYear>
-        Born in Youngstown, Ohio
+        Born in Youngstown, OH
         </BioSection>
         <BioSection>
         <BioYear>2009</BioYear>
-        Moved to the Columbus Metropolitan Area, Ohio
+        Moved to the Columbus Metropolitan Area
         </BioSection>
         <BioSection>
         <BioYear>2021</BioYear>
@@ -85,7 +85,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2023</BioYear>
-        Studied Abroad: Copenhagen, Stockholm & Berlin        
+        Studied Abroad: Copenhagen, Stockholm, & Berlin        
         </BioSection>
         <BioSection>
         <BioYear>2024</BioYear>
@@ -93,13 +93,13 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2025</BioYear>
-        Graduated from Purdue University
+        Graduated from Purdue University's CIT Department
         </BioSection>
       </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          I ♥︎
+          My Interests
         </Heading>
         <Paragraph> Lifting, {' '}
           <Link href="https://www.formula1.com/" target="_blank">
@@ -107,7 +107,7 @@ const Page = () => {
           </Link>, {' '}
           <Link href="https://www.fromsoftware.jp/ww/" target="_blank">
           FromSoftware games
-          </Link>, Reading, {' '}
+          </Link>, Film, {' '}
           <Link href="https://bostonstoker.com/" target="_blank">
           Coffee
           </Link>, {' '} 
@@ -120,7 +120,7 @@ const Page = () => {
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        Socials
+        Let's Connect
         </Heading>
         <List>
           <ListItem>
@@ -129,20 +129,11 @@ const Page = () => {
                 variant="ghost"
                 colorScheme="blue"
                 leftIcon={<IoLogoGithub />}>
-                tgraewe
+                github.com/tgraewe
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://www.instagram.com/tom.graewe/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<IoLogoInstagram/>}>
-                tom.graewe
-              </Button>
-            </Link>
-            </ListItem>
+          
             <ListItem>
             <Link href="https://www.linkedin.com/in/tgraewe/" target="_blank">
               <Button
@@ -169,7 +160,7 @@ const Page = () => {
 
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        Say hello 👋
+        Contact me
         </Heading>
         <List>
         <ListItem>
