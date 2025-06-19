@@ -34,7 +34,7 @@ const Logo = () => {
                     fontFamily='M PLUS Rounded 1c'
                     fontWeight='bold'
                     ml='3'>
-                    Tom Gräwe
+                    Tom Graewe
                 </Text>
             </LogoBox>
         </Link>
