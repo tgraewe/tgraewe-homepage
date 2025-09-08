@@ -20,14 +20,14 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m a Master's Student in Cyberinfrastructure and Networking at Purdue University 
+        Hello, I&apos;m an MS Student in Cyberinfrastructure and Network Engineering @ Purdue University 
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Tom Graewe
+            Tom Gräwe
           </Heading>
-          <p>Network Engineer / Boilermaker / Fixer / Instructor</p>
+          <p>Network Engineer / Boilermaker / Teaching Assistant</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -48,11 +48,11 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I'm a gradstudent and developer from Columbus, OH. Currently, I’m pursuing a Network Engineering track at Purdue University. 
+        <Paragraph>I'm a gradstudent and developer from Columbus, OH. Currently, I’m pursuing an MS in Network Engineering at Purdue University. 
           I enjoy new experiences and leaving an impact on the people I work with as well as learning from their experiences and lives. 
           In my free time, you'll find me reading and enjoying an espresso. 
-          My determination comes from satisfaction when a project is completed and the outcome goes beyond expectations. 
-          I have a relentless focus on continuous improvement, whether it’s identifying overlooked details, refining processes, or learning from mistakes. 
+          My determination comes from satisfaction when a project is completed and the everything is functioning in an efficent manner. 
+          I have a focus on continuous improvement, whether it’s identifying overlooked details or learning from mistakes. 
           Whenever I finish a project, I immediately look for ways to make it more efficent and optimize it.
         </Paragraph>
         <Box align="center" my={4}>
@@ -89,11 +89,11 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2024</BioYear>
-        Rebuilt Purdue’s Cyber Infrastructure Datacenter & Wireless Security Labs
+        Rebuilt Cyberinfrastructure Datacenter & Wireless Labs
         </BioSection>
         <BioSection>
         <BioYear>2025</BioYear>
-        Graduated from Purdue University's CIT Department
+        Graduated from Purdue University's CIT Program
         </BioSection>
       </Section>
 
@@ -114,7 +114,7 @@ const Page = () => {
           <Link href="https://500px.com/p/tgraewe?view=photos" target="_blank">
             Photography
           </Link>, {' '} 
-          Homelab tinkering, Retrowave
+          Homelab tinkering, Retrowave, Dark Fantasy
           </Paragraph>
       </Section>
 
