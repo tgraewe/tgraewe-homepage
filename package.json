@@ -13,7 +13,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Tommaso Graewe",
+  "author": "Tom Graewe",
   "license": "MIT",
   "dependencies": {
     "@builder.io/react-hydration-overlay": "^0.0.8",
