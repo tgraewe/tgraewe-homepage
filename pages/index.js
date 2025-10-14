@@ -48,13 +48,7 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I'm a gradstudent Ohio. I enjoy securing networks and making sure they can't be broken.
-          Currently, I'm playing with honeypots and diving into honeynets as a research track for my thesis. 
-          I enjoy new experiences and leaving an impact on the people I work with as well as learning from their experiences. 
-          In my free time, you'll find me at the gym or experimenting on new networks always with a coffee on my desk.
-          My determination comes from satisfaction when a job is completed and all components are optimized. 
-          I have a focus on continuous improvement and experimenation, whether it’s finding learning from mistakes trying uncharted solutions. 
-          When I finish a project, I immediately look for ways to make it more efficent.
+        <Paragraph>I'm a grad student from Ohio. I enjoy securing networks and making sure they can't be broken. Currently, I'm playing with honeypots and diving into honeynets as a research track for my thesis. I enjoy new experiences and leaving an impact on the people I work with, as well as learning from their experiences. In my free time, you'll find me at the gym or experimenting with new networks, always with a coffee on my desk. My determination comes from satisfaction when a job is completed and all components are optimized. I have a focus on continuous improvement and experimentation, whether it’s finding, learning from mistakes, or trying uncharted solutions. When I finish a project, I immediately look for ways to make it more efficient.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
