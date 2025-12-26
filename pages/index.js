@@ -27,7 +27,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Tom Gräwe
           </Heading>
-          <p>Network Engineer / Boilermaker / Teaching Assistant / Researcher</p>
+          <p>Network Engineer / Boilermaker / Graduate Teaching Assistant</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -48,7 +48,11 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I'm a grad student and enjoy securing networks and making sure they can't be broken. Currently, I'm playing with honeypots and diving into honeynets as a research track for my thesis. I enjoy new experiences and leaving an impact on the people I work with, as well as learning from their experiences. In my free time, you'll find me at the gym or experimenting with new networks, always with a coffee on my desk. My determination comes from satisfaction when a job is completed and all components are optimized. I have a focus on continuous improvement and experimentation, whether it’s finding, learning from mistakes, or trying uncharted solutions. When I finish a project, I immediately look for ways to make it more efficient.
+        <Paragraph>I’m a graduate student researching honeypot technology in the School of Applied Creative Computing (ACC). I am hoping to focus my thesis on production honeynets and am narrowing it down for my expected defense in Spring of 2027.
+
+My motivation comes from finding ways to optimize resources on a project, whether it is an enterprise-grade network or a cloud-computing stack. My heart is in infrastructure, where I enjoy deploying, configuring, securing, and maintaining networks.
+
+In my free time, you will find me at the gym or playing a FromSoftware game. I also like experimenting with coffee, specifically espresso. If we are working together, my access to caffeine on site is a bare minimum.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -67,16 +71,12 @@ const Page = () => {
         Bio
         </Heading>
         <BioSection>
-        <BioYear>2002</BioYear>
-        Born in Youngstown, OH
-        </BioSection>
-        <BioSection>
-        <BioYear>2009</BioYear>
-        Moved to the Columbus Metropolitan Area
+        <BioYear>2020</BioYear>
+        Began Cisco Networking Academy
         </BioSection>
         <BioSection>
         <BioYear>2021</BioYear>
-        Enrolled as a Cybersecurity student at Purdue University
+        Enrolled as a Undergraduate at Purdue University
         </BioSection>
         <BioSection>
         <BioYear>2023</BioYear>
@@ -88,7 +88,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2025</BioYear>
-        Graduated from Purdue University's CIT Program
+        Graduated from Purdue University's Computer and Information Technology Program
         </BioSection>
       </Section>
 
@@ -96,7 +96,7 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           My Interests
         </Heading>
-        <Paragraph> Lifting, Working on my Car, PC Building, {' '}
+        <Paragraph> Lifting, PC Building, {' '}
           <Link href="https://www.formula1.com/" target="_blank">
           F1
           </Link>, {' '}
@@ -105,9 +105,6 @@ const Page = () => {
           </Link>, Film, {' '}
           <Link href="https://bostonstoker.com/" target="_blank">
           Coffee
-          </Link>, {' '} 
-          <Link href="https://500px.com/p/tgraewe?view=photos" target="_blank">
-            Photography
           </Link>, {' '} 
           Homelab tinkering.
           </Paragraph>
