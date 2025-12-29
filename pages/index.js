@@ -49,10 +49,7 @@ const Page = () => {
         About me
       </Heading>
         <Paragraph>I’m a graduate student researching honeypot technology in the School of Applied Creative Computing (ACC). I am hoping to focus my thesis on production honeynets and am narrowing it down for my expected defense in Spring of 2027.
-
 My motivation comes from finding ways to optimize resources on a project, whether it is an enterprise-grade network or a cloud-computing stack. My heart is in infrastructure, where I enjoy deploying, configuring, securing, and maintaining networks.
-
-In my free time, you will find me at the gym or playing a FromSoftware game. I also like experimenting with coffee, specifically espresso. If we are working together, my access to caffeine on site is a bare minimum.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
