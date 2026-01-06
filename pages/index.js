@@ -25,7 +25,7 @@ const Page = () => {
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Tom Gräwe
+            Tom Graewe
           </Heading>
           <p>Network Engineer / Boilermaker / Graduate Teaching Assistant</p>
         </Box>
@@ -48,7 +48,8 @@ const Page = () => {
       <Heading as="h3" variant="section-title">
         About me
       </Heading>
-        <Paragraph>I’m a graduate student researching honeypot technology in the School of Applied Creative Computing (ACC). I am hoping to focus my thesis on production honeynets and am narrowing it down for my expected defense in Spring of 2027.
+        <Paragraph>
+I’m a graduate student researching honeypot technology in the School of Applied Creative Computing (ACC). I am hoping to focus my thesis on production honeynets and am narrowing it down for my expected defense in Spring of 2027.
 My motivation comes from finding ways to optimize resources on a project, whether it is an enterprise-grade network or a cloud-computing stack. My heart is in infrastructure, where I enjoy deploying, configuring, securing, and maintaining networks.
         </Paragraph>
         <Box align="center" my={4}>
