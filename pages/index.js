@@ -20,14 +20,14 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m an MS Student in Cyberinfrastructure and Network Engineering @ Purdue University 
+        Hello, I&apos;m an MS student studying Cyberinfrastructure @ Purdue 
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Tom Graewe
           </Heading>
-          <p>Network Engineer / Boilermaker / Graduate Teaching Assistant</p>
+          <p>Grad Student / Teaching Assistant / Researcher</p>
         </Box>
         <Box 
           flexShrink={0} 
@@ -49,9 +49,18 @@ const Page = () => {
         About me
       </Heading>
         <Paragraph>
-I’m a graduate student researching honeypot technology in the School of Applied Creative Computing (ACC). I am hoping to focus my thesis on production honeynets and am narrowing it down for my expected defense in Spring of 2027.
-My motivation comes from finding ways to optimize resources on a project, whether it is an enterprise-grade network or a cloud-computing stack. My heart is in infrastructure, where I enjoy deploying, configuring, securing, and maintaining networks.
+          I am a graduate student at Purdue University pursuing a Master of Technology in Deception Engineering, with an expected graduation in Spring 2027. 
+          I'm seeking entry-level full-time roles in network IT infrastructure or system administration.
         </Paragraph>
+       <Paragraph> 
+          My primary focus is on building and managing reliable networked systems. 
+          I enjoy designing and deploying environments, then optimizing them to ensure they operate efficiently. 
+          I value stability and performance first, followed by layering in security access controls to strengthen the system over time.
+        </Paragraph>
+        <Paragraph>
+          I have hands-on experience working with Linux systems, network configurations, and network troubleshooting.
+          I'm primarily interested in roles that allow me to work directly with systems and learn best practices for maintaining secure, dependable environments.
+       </Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -69,10 +78,6 @@ My motivation comes from finding ways to optimize resources on a project, whethe
         Bio
         </Heading>
         <BioSection>
-        <BioYear>2020</BioYear>
-        Began Cisco Networking Academy
-        </BioSection>
-        <BioSection>
         <BioYear>2021</BioYear>
         Enrolled as a Undergraduate at Purdue University
         </BioSection>
@@ -82,11 +87,15 @@ My motivation comes from finding ways to optimize resources on a project, whethe
         </BioSection>
         <BioSection>
         <BioYear>2024</BioYear>
-        Rebuilt Cyberinfrastructure Datacenter & Wireless Labs
+        Interned over the summer, contributing to a datacenter renovation
         </BioSection>
         <BioSection>
         <BioYear>2025</BioYear>
-        Graduated from Purdue University's Computer and Information Technology Program
+        Graduated from Purdue University's Computer and Information Technology program
+        </BioSection>
+        <BioSection>
+        <BioYear>2026</BioYear>
+        Began honeynet research project
         </BioSection>
       </Section>
 
@@ -94,36 +103,18 @@ My motivation comes from finding ways to optimize resources on a project, whethe
         <Heading as="h3" variant="section-title">
           My Interests
         </Heading>
-        <Paragraph> Lifting, PC Building, {' '}
-          <Link href="https://www.formula1.com/" target="_blank">
-          F1
-          </Link>, {' '}
-          <Link href="https://www.fromsoftware.jp/ww/" target="_blank">
-          FromSoftware games
-          </Link>, Film, {' '}
-          <Link href="https://bostonstoker.com/" target="_blank">
-          Coffee
-          </Link>, {' '} 
-          Homelab tinkering.
-          </Paragraph>
+        <Paragraph> PC Building, Homelab tinkering, {' '}
+          Film analysis, {' '}
+          Coffee tasting, {' '} 
+          Speedrunning games.
+        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
         Let's Connect
         </Heading>
-        <List>
-          <ListItem>
-            <Link href="https://github.com/tgraewe" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<IoLogoGithub />}>
-                github.com/tgraewe
-              </Button>
-            </Link>
-          </ListItem>
-          
+        <List>          
             <ListItem>
             <Link href="https://www.linkedin.com/in/tgraewe/" target="_blank">
               <Button
@@ -134,17 +125,16 @@ My motivation comes from finding ways to optimize resources on a project, whethe
               </Button>
             </Link>
           </ListItem>
-            {/*<ListItem>
-            <Link href="https://linktr.ee/tgraewe" target="_blank">
+          <ListItem>
+            <Link href="https://github.com/tgraewe" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
-                leftIcon={<IoLink />}>
-                @linktr.ee/tgraewe
+                leftIcon={<IoLogoGithub />}>
+                github.com/tgraewe
               </Button>
             </Link>
-          </ListItem>*/}
-            
+          </ListItem>
         </List>
         </Section>
 
@@ -154,13 +144,13 @@ My motivation comes from finding ways to optimize resources on a project, whethe
         </Heading>
         <List>
         <ListItem>
-            <Link href="mailto:tgraewe@proton.me" target="_blank">
+            <Link href="mailto:tommaso.graewe@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
                 leftIcon={<AiOutlineMail/>}
                 >
-                tgraewe@proton.me
+                tommaso.graewe@gmail.com
               </Button>
             </Link>
             </ListItem>
