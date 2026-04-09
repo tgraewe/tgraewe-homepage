@@ -13,10 +13,10 @@ import Layout from '../components/layouts/article'
 
 const Works = () => {
   return (
-    <Layout title="Works">
+    <Layout title="Projects">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Projects
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.4}>
@@ -41,15 +41,7 @@ const Works = () => {
         </SimpleGrid>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.4}>
-            <WorkGridItem 
-              id="ports" 
-              title="Ports" 
-              thumbnail={ports}
-            >
-              Recent website for portfolios.
-            </WorkGridItem>
-          </Section>
+          
           
           <Section delay={0.4}>
             <WorkGridItem 
@@ -72,15 +64,7 @@ const Works = () => {
           </Section>
           */}
           
-          <Section delay={0.4}>
-            <WorkGridItem 
-              id="ehp" 
-              title="Hacking website" 
-              thumbnail={ehp}
-            >
-              Ethical Hackers of Purdue website.
-            </WorkGridItem>
-          </Section>
+          
         </SimpleGrid>
         <Divider my={6} />
 
@@ -92,9 +76,41 @@ const Works = () => {
             
           </Section>
         </SimpleGrid>*/}
-
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Websites
+        </Heading>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.4}>
+            <WorkGridItem 
+              id="ehp" 
+              title="Hacking website" 
+              thumbnail={ehp}
+            >
+              Ethical Hackers of Purdue website.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.4}>
+            <WorkGridItem 
+              id="ports" 
+              title="Ports" 
+              thumbnail={ports}
+            >
+              Recent website for portfolios.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.4}>
+              <WorkGridItem 
+                id="inspireqr" 
+                title="Inspire QR" 
+                thumbnail={inspireqr}
+              >
+                An award winning website.
+              </WorkGridItem>
+            </Section>
+        </SimpleGrid>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          Old projects
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           {/*
@@ -126,15 +142,6 @@ const Works = () => {
               A custom personal computer.
             </WorkGridItem>
           </Section>
-          <Section delay={0.4}>
-              <WorkGridItem 
-                id="inspireqr" 
-                title="Inspire QR" 
-                thumbnail={inspireqr}
-              >
-                An award winning website.
-              </WorkGridItem>
-            </Section>
         </SimpleGrid>
       </Container>
     </Layout>
