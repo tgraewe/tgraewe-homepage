@@ -9,6 +9,7 @@ import computer from '../public/images/projects/pc.png'
 import pideck from '../public/images/projects/pideck/pideck_01.png'
 import ports from '../public/images/projects/ports/2.png'
 import grandprix from '../public/images/projects/grandprix/1.jpeg'
+import lab from '../public/images/projects/lab/lab.jpg'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -19,39 +20,53 @@ const Works = () => {
           Projects
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+
+        <Section delay={0.4}>
+            <WorkGridItem 
+              id="lab" 
+              title="Wireless Security Lab" 
+              thumbnail={lab}
+            >
+              Hospital Network
+            </WorkGridItem>
+          </Section>
+          
         <Section delay={0.4}>
             <WorkGridItem 
               id="grandprix" 
               title="Grand Prix" 
               thumbnail={grandprix}
             >
-              Wireless Network for a Racetrack.
+              Wireless Racetrack Network
             </WorkGridItem>
           </Section>
+          
+          
+        </SimpleGrid>
 
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          
           <Section delay={0.4}>
             <WorkGridItem 
               id="datacenter" 
               title="Datacenter" 
               thumbnail={datacenter}
             >
-              Cyber Infrastructure Lab.
+              Cyberinfrastructure Research Lab
             </WorkGridItem>
           </Section>
-        </SimpleGrid>
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          
-          
           <Section delay={0.4}>
             <WorkGridItem 
               id="pideck" 
               title="Cyberdeck" 
               thumbnail={pideck}
             >
-              A small portable computer for future projects.
+             Custom-built, portable computer
             </WorkGridItem>
           </Section>
+
+          
           {/*
           <Section delay={0.4}>
             <WorkGridItem 
@@ -86,7 +101,7 @@ const Works = () => {
               title="Hacking website" 
               thumbnail={ehp}
             >
-              Ethical Hackers of Purdue website.
+              Ethical Hackers of Purdue website
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
@@ -95,7 +110,7 @@ const Works = () => {
               title="Ports" 
               thumbnail={ports}
             >
-              Recent website for portfolios.
+              Recent website for portfolios
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
@@ -104,7 +119,7 @@ const Works = () => {
                 title="Inspire QR" 
                 thumbnail={inspireqr}
               >
-                An award winning website.
+                An award winning website
               </WorkGridItem>
             </Section>
         </SimpleGrid>
@@ -130,7 +145,7 @@ const Works = () => {
               title="PiHole" 
               thumbnail={raspi}
             >
-              Raspberry Pi Home DNS/VPN Server.
+              Raspberry Pi Home DNS/VPN Server
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
@@ -139,7 +154,7 @@ const Works = () => {
               title="Gaming PC" 
               thumbnail={computer}
             >
-              A custom personal computer.
+              A custom personal computer
             </WorkGridItem>
           </Section>
         </SimpleGrid>

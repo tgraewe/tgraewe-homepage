@@ -20,7 +20,7 @@ const Page = () => {
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m an MS student studying Cyberinfrastructure @ Purdue 
+        Hello, I&apos;m an MS studying Network Infrastructure @ Purdue
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -68,7 +68,7 @@ const Page = () => {
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="blue">
-            My portfolio
+            My projects
           </Button>
         </Box>
       </Section>
