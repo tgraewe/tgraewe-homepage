@@ -30,10 +30,6 @@ const Work = () => {
                         <Meta>Equipment</Meta>
                         <span></span>
                     </ListItem>
-                    <ListItem>
-                        <Meta>Software</Meta>
-                        <span></span>
-                    </ListItem>
                     <WorkImage src="/images/projects/lab/lab.jpg" alt="about"></WorkImage>                                    
                 </List>
             </Container>
