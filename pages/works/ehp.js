@@ -41,9 +41,9 @@ const Work = () => {
                         <span>React / Type Script / Chakra UI / GitHub / Namecheap / Google Cloud</span>
                     </ListItem>
 
-                    <WorkImage src="/images/projects/ehp_01.png" alt="ehp"></WorkImage>
-                    <WorkImage src="/images/projects/ehp_02.png" alt="calendar"></WorkImage>
-                    <WorkImage src="/images/projects/ehp_03.png" alt="footer"></WorkImage>
+                    <WorkImage src="/images/projects/ehp/ehp_01.png" alt="ehp"></WorkImage>
+                    <WorkImage src="/images/projects/ehp/ehp_02.png" alt="calendar"></WorkImage>
+                    <WorkImage src="/images/projects/ehp/ehp_03.png" alt="footer"></WorkImage>
 
                 </List>
             </Container>
