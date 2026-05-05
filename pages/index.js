@@ -67,8 +67,8 @@ const Page = () => {
             href="/works"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="blue">
-            My projects
+            colorScheme="green">
+            My portfolio
           </Button>
         </Box>
       </Section>
@@ -119,7 +119,7 @@ const Page = () => {
             <Link href="https://www.linkedin.com/in/tgraewe/" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="blue"
+                colorScheme="green"
                 leftIcon={<IoLogoLinkedin/>}>
                 linkedin.com/in/tgraewe
               </Button>
@@ -129,7 +129,7 @@ const Page = () => {
             <Link href="https://github.com/tgraewe" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="blue"
+                colorScheme="green"
                 leftIcon={<IoLogoGithub />}>
                 github.com/tgraewe
               </Button>
@@ -147,7 +147,7 @@ const Page = () => {
             <Link href="mailto:tommaso.graewe@gmail.com" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="blue"
+                colorScheme="green"
                 leftIcon={<AiOutlineMail/>}
                 >
                 tommaso.graewe@gmail.com
