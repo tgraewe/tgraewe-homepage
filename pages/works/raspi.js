@@ -34,8 +34,8 @@ const Work = () => {
                         <Meta>Software</Meta>
                         <span>Raspberry Pi OS Lite / Pi-hole / PiVPN</span>
                     </ListItem>
-                    <WorkImage src="/images/projects/raspi_01.png" alt="raspi"></WorkImage>                   
-                    <WorkImage src="/images/projects/raspi.png" alt="dashboard"></WorkImage>                   
+                    <WorkImage src="/images/projects/raspi/raspi_01.png" alt="raspi"></WorkImage>                   
+                    <WorkImage src="/images/projects/raspi/raspi.png" alt="dashboard"></WorkImage>                   
                 </List>
             </Container>
         </Layout>

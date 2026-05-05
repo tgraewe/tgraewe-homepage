@@ -46,8 +46,8 @@ const Work = () => {
                         </Link>                    
                     </ListItem>
 
-                    <WorkImage src="/images/projects/inspire.png" alt="inspireqr"></WorkImage>                   
-                    <WorkImage src="/images/projects/inspire_01.png" alt="resources"></WorkImage>                   
+                    <WorkImage src="/images/projects/inspireqr/inspire.png" alt="inspireqr"></WorkImage>                   
+                    <WorkImage src="/images/projects/inspireqr/inspire_01.png" alt="resources"></WorkImage>                   
 
                 </List>
             </Container>

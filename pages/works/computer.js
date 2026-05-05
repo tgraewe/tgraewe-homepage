@@ -30,8 +30,8 @@ const Work = () => {
                         <Meta>Hardware</Meta>
                         <span> Ryzen 5 2600X / Radeon RX 590 / B350 MOBO / DDR4 16GB / 750W PSU</span>
                     </ListItem>
-                    <WorkImage src="/images/projects/pc.png" alt="computer"></WorkImage>                   
-                    <WorkImage src="/images/projects/pc_01.png" alt="specs"></WorkImage>      
+                    <WorkImage src="/images/projects/computer/pc.png" alt="computer"></WorkImage>                   
+                    <WorkImage src="/images/projects/computer/pc_01.png" alt="specs"></WorkImage>      
 
                 </List>
             </Container>
